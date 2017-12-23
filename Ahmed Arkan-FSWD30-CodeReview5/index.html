@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> code dating </title>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+	<header>
+		<a href="index.html"><h1>Coders < <i class="fa fa-heart fa-2x" aria-hidden="true"></i> >  Dating</h1></a>
+		<img src="img/hero.jpg">
+
+		<div class="buts">
+			
+			<button id="all"> <i class="fa fa-users" aria-hidden="true"></i> ALL </button>
+
+			<button id="male"> <i class="fa fa-male" aria-hidden="true"></i> MALE </button>
+
+			<button id="female"> <i class="fa fa-female" aria-hidden="true"></i> FEMALE </button>
+		</div>
+
+	</header>
+<main>
+
+
+<script type="text/javascript" src="index.js"></script>
+
+</main>
+
+
+<hr>
+
+<footer> coders < <i class="fa fa-heart fa-2x" aria-hidden="true"></i> > dating 
+
+&copy Ahmed
+ </footer>
+
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+
+		$('#all').on('click' ,(function (){
+
+			$('.card').show();
+
+		}));
+
+		$('#male').on('click' ,(function (){
+
+
+			$('.0').show();
+			$('.1').show();
+
+			$('.2').hide();
+			$('.3').hide();
+
+		}));
+			$('#female').on('click' ,(function (){
+
+
+			$('.2').show();
+			$('.3').show();
+
+			$('.1').hide();
+			$('.0').hide();
+
+		}));
+
+			});
+
+	</script>
+</body>
+</html>
